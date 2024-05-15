@@ -1,0 +1,62 @@
+
+html{
+  scroll-behavior: smooth;
+}
+ul{
+  margin: 0;
+}
+.prof-title{
+  text-decoration: none;
+  color: rgb(254, 254, 254);
+  font-size: 20px;
+  top:40px;
+}
+.prof-img{
+  width: 200px;
+  height: 200px;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+/* MENU START HERE */
+
+.progress{
+  position: absolute;
+  background: #a33d6b;
+  width:350px;
+}
+
+.progress ul{   
+  margin-top: 30px;
+  padding: 0;
+  list-style: none;
+  height: 600px;
+  /*width: 80px;*/
+  display: flex;
+  align-items: left;
+  flex-flow: column;
+  text-align: center;
+}
+
+.progress ul li{
+  z-index: 1;
+  padding: 10px;
+
+}
+
+.progress ul li a{ 
+  text-decoration: none;
+  width: 100%;
+  font-weight: 500;
+  /*background: white;*/
+  color: rgb(253, 253, 253);
+  /*border: 1px solid #211C19;
+  border-radius: 12px;
+  padding: 8px;*/
+  letter-spacing: 1px;
+}
+li:hover{
+  transition: 0.7s;
+  background-color: rgb(124, 58, 89);
+}

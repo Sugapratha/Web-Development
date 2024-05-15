@@ -1,0 +1,151 @@
+body{
+  margin: 0;
+  margin-top: 50px;
+  font-family: 'Poppins', sans-serif;
+} 
+
+h1, h2, h3{
+  font-family: 'Poppins', sans-serif;
+  color: rgb(144, 24, 100);
+  text-align: center;
+}
+h2{
+  top: 5%;
+  left: 45%;
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-size:30px;
+}
+.cart-page-title{
+  color: rgb(144, 24, 100);
+  text-align: center;
+  font-size:30px;
+}
+.cart-page-h4{
+  color: rgb(144, 24, 100);
+  text-align: center;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.register-form{
+  text-align:left;
+  justify-content: left;
+  align-items:left; 
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(237, 209, 222);
+  border-radius: 30px;
+  width: 700px;
+  margin: auto;
+  padding:30px 30px 10px 30px ;
+  margin-bottom: 20px;
+}
+.login-form{
+  position: absolute;
+  top: 170px;
+  left: 24%;
+  text-align:left;
+  justify-content: left;
+  align-items:left; 
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(237, 209, 222, 0.3);
+  border-radius: 30px;
+  width: 700px;
+  margin: auto;
+  padding:30px 30px 10px 30px ;
+  margin-bottom: 20px;
+  opacity: 1;
+}
+.labels{
+  font-size: 18px;
+  padding-bottom: 8px; 
+  color: rgb(254, 250, 252) ;
+}
+.inputs{
+  width: 700px;
+  height: 40px;
+  border: 1px solid rgb(148, 38, 95);
+  border-radius: 5px;
+  background-color: rgb(237, 209, 222);
+  font-family: 'Poppins', sans-serif;
+  color: rgb(134, 31, 84) ;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.inputs:hover{
+  background-color: rgb(236, 183, 207);
+  transition: 0.3s;
+
+}
+.inputs:focus{
+  outline: none;
+  border: none;
+  border :1px solid rgb(148, 38, 95);
+  box-shadow: 3px 3px 7px  rgb(244, 238, 241);
+}
+::placeholder{
+  color: rgb(134, 31, 84) ;
+  padding-left: 10px;
+}
+.inputs::-webkit-file-upload-button{
+  height:40px; 
+  margin: 0;
+  width: 110px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(118, 20, 70) ;
+  margin-right: 10px;
+  border: none;
+  border-right: 1px solid rgb(148, 38, 95);
+  border-radius: 5px;
+  background-color: rgb(214, 167, 188);
+  cursor: pointer;
+}
+.inputs::-webkit-file-upload-button:hover{
+  background-color: rgb(235, 165, 196);
+  transition: 0.3s;
+}
+
+.submit{
+  text-align: center;
+}
+.submit-button{
+  width: 130px;
+  height: 40px;
+  border:none;
+  border-radius: 5px;
+  background-color: rgb(137, 38, 84);
+  font-size: 17px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(255, 240, 248) ;
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+.submit-button:hover{
+  background-color: rgb(181, 57, 115);
+}
+.login{
+  text-align: center;
+  margin: 0;
+  margin-bottom: 15px;
+  color: rgb(255, 237, 246) ; 
+  
+}
+.login a{
+  text-decoration: none;
+  color: rgb(94, 13, 52) ;
+  font-weight: 600;
+}
+.login a:hover{
+  text-decoration: underline; 
+  transition: 0.5s;
+}
+
+
