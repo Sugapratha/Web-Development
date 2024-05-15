@@ -1,0 +1,160 @@
+body{
+  margin: 0;
+  margin-top: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+.logo{
+  width: 120px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #7e1756;
+  position: fixed;
+  width: 100%;
+  top: 0; 
+  z-index: 3000;
+}
+
+.topnav .nav-link {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.fa-shopping-cart{
+  width: 30px;
+}
+.topnav .nav-link:hover {
+  background-color:  #ffbce5;
+  color: black;
+  font-weight: 500;
+}
+
+.topnav .nav-link.active {
+  background-color: #ffbce5;
+  color: white;
+}
+
+/*admin-area*/
+.details{
+  text-align: center;
+  margin: 0;
+}
+.admin-buttons{
+  background-color: rgb(228, 191, 209);
+  text-align: center;
+  width: 100%;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+.admin-grid1,.admin-grid2{
+  text-align: center;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr ;
+  column-gap: 10px;
+  row-gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+@media(max-width:1000px){
+  .admin-grid1,.admin-grid2{
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    row-gap: 10px;
+  }
+}
+@media(max-width:740px){
+  .admin-grid1,.admin-grid2{
+    grid-template-columns: 1fr 1fr  ;
+    row-gap: 10px;
+  }
+}
+.cat-buttons{
+  width: 150px;
+  border-style: solid;
+  border-color: #7e1756 ;
+  color: #7e1756;
+  padding: 10px;
+  border-radius:25px ;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  transition: 0.4s;
+}
+.cat-buttons:hover{
+  border-style: solid;
+  background-color: #7e1756 ;
+  color: #ebe8ea;
+  padding: 10px;
+  border-radius:25px ;
+  cursor: pointer;
+}
+
+/*insert category*/
+.insert-form{
+  margin: 20px;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.fa.fa-bars{
+  font-size: 25px;
+  background-color: #8b2966;
+  padding: 10px;
+  right: 0;
+}
+.category {
+  justify-content: center;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: rgb(161, 59, 119);
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-list{
+  width: 100%;
+  padding: 10px;
+ border-width:1px;
+}
+
+.input-list:focus {
+  border: none;
+}
+
+/* Set a style for the submit button */
+.ins-cat-buttons {
+  background-color: rgb(228, 186, 214);
+  color: rgb(17, 16, 16);
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size:15px;
+  font-weight: 600;
+}
+
+.ins-cat-buttons:hover {
+  background-color: rgb(255, 255, 255);
+  border-color: #771451;
+  color: #6b1349;
+  border: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+form{
+  background-color: rgb(226, 203, 217);
+}
